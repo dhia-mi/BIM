@@ -1,0 +1,127 @@
+body{
+  width:100%;font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+ font-size: 24px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 26.4px;
+}
+h3 {
+ font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+ font-size: 14px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 15.4px; 
+} 
+p {
+ font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+ font-size: 14px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 20px; 
+}
+blockquote {
+ font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+ font-size: 21px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 30px; 
+}
+pre { 
+  font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+ font-size: 13px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 18.5714px; 
+}
+#di4{
+  height: 600px;
+
+}
+
+
+@media (min-width: 768px) {
+  #img1{
+  		position: relative;
+    	height: 125px;
+	width: 216px;
+	margin-top: -20px;
+	margin-left: -10px;
+	float: left;
+  }
+}
+                 /*****NAVBAR****/
+#monmenu {
+   height: 130px;
+   text-align: center;
+   padding-left: 5px;
+}               
+#monmenu ul {
+    display: inline-block;
+    vertical-align: top;
+    float: none;
+    clear: both;
+}
+
+
+
+
+#monmenu ul li a {
+   font-size: 25px;
+
+
+}
+.navbar{
+    padding: 18px;
+}
+.navbar-toggle {
+    position: relative;
+
+    margin-right: 15px;
+    padding: 9px 10px;
+    margin-top: 28px;
+    margin-bottom: 28px;
+    background-color: transparent;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+*:focus {outline:none !important}
+
+@media (min-width: 1000px) {
+#über{
+padding-left: 40px;
+  }
+}
+@media (max-width: 768px) {
+  #mst{
+padding-left:  5%;
+  }
+}
+
+
+@media (max-width: 650px) {
+#cont{
+ font-size: 40px;
+ padding-bottom: 5%;
+}
+#hr1{
+ border-top: 4px solid #719fff;width: 50%;text-align: center;
+}
+}
+
+@media (min-width: 650px) {
+#cont{
+  font-size: 80px;
+ padding-bottom: 18%;
+}
+#hr1{
+  border-top: 4px solid #719fff;width: 50%;text-align: center;
+}
+}    
+
+@media (min-width: 880px) {
+#cont{
+  font-size: 100px;
+ padding-bottom: 25%;
+}
+#hr1{
+  border-top: 8px solid #719fff;width: 50%;text-align: center;
+}
+}
+
+@media (min-width: 1200px) {
+#cont{
+ font-size: 100px;
+ padding-bottom: 25%;
+}
+#hr1{
+  border-top: 8px solid #719fff;width: 50%;text-align: center;
+
+}
+}

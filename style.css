@@ -1,0 +1,275 @@
+body{
+  width:100%;font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+ font-size: 24px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 26.4px;
+}
+h3 {
+ font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+ font-size: 14px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 15.4px; 
+} 
+p {
+ font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+ font-size: 14px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 20px; 
+}
+blockquote {
+ font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+ font-size: 21px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 30px; 
+}
+pre { 
+  font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+ font-size: 13px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 18.5714px; 
+}
+
+#news{
+	height: 500px;
+  background-color: white;
+	position: relative;
+	margin-top: 20px;
+}
+#info{
+	height: 80px;
+  background-color: white;
+	position: relative;
+ 
+}
+
+
+                 /*****NAVBAR****/
+
+
+*:focus {outline:none !important}
+
+     /*********************************************************/
+@media (max-width: 576px) {
+ .ig1{
+    height: 225px;
+  }
+}
+@media (max-width: 576px) {
+.ig2{
+    height: 225px;
+  }
+}
+@media (max-width: 576px) {
+.ig4{
+    height: 225px;
+  }
+}
+     /*********************************************************/
+@media (min-width: 576px) {
+ .ig1{
+    height: 325px;
+  }
+}
+@media (min-width: 576px) {
+.ig2{
+    height: 325px;
+        float: left;
+  }
+}
+@media (min-width: 576px) {
+.ig4{
+    height: 325px;
+        float: left;
+  }
+}
+     /*********************************************************/
+
+@media (min-width: 768px) {
+ .ig1{
+    height: 325px;
+    float: left;
+  }
+}
+@media (min-width: 768px) {
+.ig2{
+    height: 325px;
+    float: left;
+  }
+}
+@media (min-width: 768px) {
+.ig4{
+    height: 325px;
+    float: left;
+  }
+}
+
+     /*********************************************************/
+
+@media (min-width: 1200px) {
+.ig1{
+
+    height: 325px;
+    float: left;
+  }
+}
+@media (min-width: 1200px) {
+.ig2{
+
+    height: 325px;
+    float: left;
+  }
+}
+@media (min-width: 1200px) {
+.ig4{
+
+    height: 325px;
+    float: left;
+  }
+}
+     /*********************************************************/
+.ig1{
+  background-image: url('i1.jpg') ;    
+  background-position: center center;
+  background-size: cover;
+    background-repeat: no-repeat; 
+    transition: transform .5s ease;
+overflow: hidden;
+}
+.ig2{
+  background-image: url('noiret/3.png') ;    
+  background-position: center center;
+  background-size: cover;
+    background-repeat: no-repeat; 
+        transition: transform .5s ease;
+overflow: hidden;
+}
+.ig4{
+  background-image: url('i3.jpg') ;   
+  background-position: center center;
+  background-size: cover;
+    background-repeat: no-repeat; 
+        transition: transform .5s ease;
+overflow: hidden;
+}
+
+.ig1:hover{
+transform: scale(1.1);
+overflow: hidden;
+
+}
+.ig2:hover{
+transform: scale(1.1);
+}
+.ig4:hover{
+transform: scale(1.1);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+     /*********************************************************/
+     @media (max-width: 576px) {
+      #contact{
+        text-align: center;
+        padding-top: 80px;
+        color: white;
+      
+        font-size: 45px;
+      }
+      #services{
+        text-align: center;
+        padding-top: 80px;
+        color: white;
+          font-size: 45px;
+      }
+      #offre{
+        text-align: center;
+        padding-top: 80px;
+        color: white;
+          font-size: 45px;
+      }
+     }
+
+          /*********************************************************/
+     @media (min-width: 576px) {
+      #contact{
+        text-align: center;
+        padding-top: 80px;
+        color: white;
+  
+        font-size: 35px;
+      }
+      #services{
+        text-align: center;
+        padding-top: 80px;
+        color: white;
+          font-size: 35px;
+      }
+      #offre{
+        text-align: center;
+        padding-top: 80px;
+        color: white;
+          font-size: 35px;
+      }
+     }
+
+
+
+     /*********************************************************/
+     @media (min-width: 1162px) {
+      #contact{
+        text-align: center;
+        padding-top: 80px;
+        color: white;
+      
+        font-size: 55px;
+      }
+      #services{
+        text-align: center;
+        padding-top: 80px;
+        color: white;
+          font-size: 55px;
+      }
+      #offre{
+        text-align: center;
+        padding-top: 80px;
+        color: white;
+          font-size: 55px;
+      }
+     }
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+     /*********************************************************/
+
+@media (min-width: 1000px) {
+#über{
+padding-left: 40px;
+  }
+}
+
+
+@media (max-width: 768px) {
+  #mst{
+padding-left:  5%;
+  }
+}
